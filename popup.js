@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Initial load of images
   loadImages();
-
   // Reload images on refresh button click
   refreshButton.addEventListener('click', loadImages);
 });
