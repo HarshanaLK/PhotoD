@@ -6,6 +6,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     }, (downloadId) => {
       sendResponse({downloadId: downloadId});
     });
-    return true; 
+    return true; // Keep the message channel open for sendResponse
   }
 });
