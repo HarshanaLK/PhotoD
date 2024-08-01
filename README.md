@@ -1,3 +1,2 @@
- PhotoD is a web browser Extension for download images from any
- website.
- HTML, CSS, Javascript       
+# SwapSnap
+SwapSnap is face swap image application develop with python
